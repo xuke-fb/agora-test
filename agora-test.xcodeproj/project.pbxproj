@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFFA866B286B923D00421D89 /* agora_testApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFA866A286B923D00421D89 /* agora_testApp.swift */; };
+		BFFA866D286B923D00421D89 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFA866C286B923D00421D89 /* ContentView.swift */; };
+		BFFA866F286B923E00421D89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFFA866E286B923E00421D89 /* Assets.xcassets */; };
+		BFFA8672286B923E00421D89 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFFA8671286B923E00421D89 /* Preview Assets.xcassets */; };
+		BFFA867C286B923E00421D89 /* agora_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFA867B286B923E00421D89 /* agora_testTests.swift */; };
+		BFFA8686286B923E00421D89 /* agora_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFA8685286B923E00421D89 /* agora_testUITests.swift */; };
+		BFFA8688286B923E00421D89 /* agora_testUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFA8687286B923E00421D89 /* agora_testUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFFA8678286B923E00421D89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFFA865F286B923C00421D89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFFA8666286B923D00421D89;
+			remoteInfo = "agora-test";
+		};
+		BFFA8682286B923E00421D89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFFA865F286B923C00421D89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFFA8666286B923D00421D89;
+			remoteInfo = "agora-test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BFFA8667286B923D00421D89 /* agora-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "agora-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFFA866A286B923D00421D89 /* agora_testApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = agora_testApp.swift; sourceTree = "<group>"; };
+		BFFA866C286B923D00421D89 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BFFA866E286B923E00421D89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFFA8671286B923E00421D89 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BFFA8677286B923E00421D89 /* agora-testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "agora-testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFFA867B286B923E00421D89 /* agora_testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = agora_testTests.swift; sourceTree = "<group>"; };
+		BFFA8681286B923E00421D89 /* agora-testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "agora-testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFFA8685286B923E00421D89 /* agora_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = agora_testUITests.swift; sourceTree = "<group>"; };
+		BFFA8687286B923E00421D89 /* agora_testUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = agora_testUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFFA8664286B923D00421D89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFFA8674286B923E00421D89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFFA867E286B923E00421D89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFFA865E286B923C00421D89 = {
+			isa = PBXGroup;
+			children = (
+				BFFA8669286B923D00421D89 /* agora-test */,
+				BFFA867A286B923E00421D89 /* agora-testTests */,
+				BFFA8684286B923E00421D89 /* agora-testUITests */,
+				BFFA8668286B923D00421D89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFFA8668286B923D00421D89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFFA8667286B923D00421D89 /* agora-test.app */,
+				BFFA8677286B923E00421D89 /* agora-testTests.xctest */,
+				BFFA8681286B923E00421D89 /* agora-testUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFFA8669286B923D00421D89 /* agora-test */ = {
+			isa = PBXGroup;
+			children = (
+				BFFA866A286B923D00421D89 /* agora_testApp.swift */,
+				BFFA866C286B923D00421D89 /* ContentView.swift */,
+				BFFA866E286B923E00421D89 /* Assets.xcassets */,
+				BFFA8670286B923E00421D89 /* Preview Content */,
+			);
+			path = "agora-test";
+			sourceTree = "<group>";
+		};
+		BFFA8670286B923E00421D89 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BFFA8671286B923E00421D89 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BFFA867A286B923E00421D89 /* agora-testTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFFA867B286B923E00421D89 /* agora_testTests.swift */,
+			);
+			path = "agora-testTests";
+			sourceTree = "<group>";
+		};
+		BFFA8684286B923E00421D89 /* agora-testUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BFFA8685286B923E00421D89 /* agora_testUITests.swift */,
+				BFFA8687286B923E00421D89 /* agora_testUITestsLaunchTests.swift */,
+			);
+			path = "agora-testUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFFA8666286B923D00421D89 /* agora-test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFFA868B286B923E00421D89 /* Build configuration list for PBXNativeTarget "agora-test" */;
+			buildPhases = (
+				BFFA8663286B923D00421D89 /* Sources */,
+				BFFA8664286B923D00421D89 /* Frameworks */,
+				BFFA8665286B923D00421D89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "agora-test";
+			productName = "agora-test";
+			productReference = BFFA8667286B923D00421D89 /* agora-test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFFA8676286B923E00421D89 /* agora-testTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFFA868E286B923E00421D89 /* Build configuration list for PBXNativeTarget "agora-testTests" */;
+			buildPhases = (
+				BFFA8673286B923E00421D89 /* Sources */,
+				BFFA8674286B923E00421D89 /* Frameworks */,
+				BFFA8675286B923E00421D89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFFA8679286B923E00421D89 /* PBXTargetDependency */,
+			);
+			name = "agora-testTests";
+			productName = "agora-testTests";
+			productReference = BFFA8677286B923E00421D89 /* agora-testTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BFFA8680286B923E00421D89 /* agora-testUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFFA8691286B923E00421D89 /* Build configuration list for PBXNativeTarget "agora-testUITests" */;
+			buildPhases = (
+				BFFA867D286B923E00421D89 /* Sources */,
+				BFFA867E286B923E00421D89 /* Frameworks */,
+				BFFA867F286B923E00421D89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFFA8683286B923E00421D89 /* PBXTargetDependency */,
+			);
+			name = "agora-testUITests";
+			productName = "agora-testUITests";
+			productReference = BFFA8681286B923E00421D89 /* agora-testUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFFA865F286B923C00421D89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					BFFA8666286B923D00421D89 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					BFFA8676286B923E00421D89 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = BFFA8666286B923D00421D89;
+					};
+					BFFA8680286B923E00421D89 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = BFFA8666286B923D00421D89;
+					};
+				};
+			};
+			buildConfigurationList = BFFA8662286B923C00421D89 /* Build configuration list for PBXProject "agora-test" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFFA865E286B923C00421D89;
+			productRefGroup = BFFA8668286B923D00421D89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFFA8666286B923D00421D89 /* agora-test */,
+				BFFA8676286B923E00421D89 /* agora-testTests */,
+				BFFA8680286B923E00421D89 /* agora-testUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFFA8665286B923D00421D89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFFA8672286B923E00421D89 /* Preview Assets.xcassets in Resources */,
+				BFFA866F286B923E00421D89 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFFA8675286B923E00421D89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFFA867F286B923E00421D89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFFA8663286B923D00421D89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFFA866D286B923D00421D89 /* ContentView.swift in Sources */,
+				BFFA866B286B923D00421D89 /* agora_testApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFFA8673286B923E00421D89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFFA867C286B923E00421D89 /* agora_testTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFFA867D286B923E00421D89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFFA8686286B923E00421D89 /* agora_testUITests.swift in Sources */,
+				BFFA8688286B923E00421D89 /* agora_testUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFFA8679286B923E00421D89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFFA8666286B923D00421D89 /* agora-test */;
+			targetProxy = BFFA8678286B923E00421D89 /* PBXContainerItemProxy */;
+		};
+		BFFA8683286B923E00421D89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFFA8666286B923D00421D89 /* agora-test */;
+			targetProxy = BFFA8682286B923E00421D89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BFFA8689286B923E00421D89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BFFA868A286B923E00421D89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFFA868C286B923E00421D89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"agora-test/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.npe.agora-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFFA868D286B923E00421D89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"agora-test/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.npe.agora-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BFFA868F286B923E00421D89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.npe.agora-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/agora-test.app/agora-test";
+			};
+			name = Debug;
+		};
+		BFFA8690286B923E00421D89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.npe.agora-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/agora-test.app/agora-test";
+			};
+			name = Release;
+		};
+		BFFA8692286B923E00421D89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.npe.agora-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "agora-test";
+			};
+			name = Debug;
+		};
+		BFFA8693286B923E00421D89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.npe.agora-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "agora-test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFFA8662286B923C00421D89 /* Build configuration list for PBXProject "agora-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFFA8689286B923E00421D89 /* Debug */,
+				BFFA868A286B923E00421D89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFFA868B286B923E00421D89 /* Build configuration list for PBXNativeTarget "agora-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFFA868C286B923E00421D89 /* Debug */,
+				BFFA868D286B923E00421D89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFFA868E286B923E00421D89 /* Build configuration list for PBXNativeTarget "agora-testTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFFA868F286B923E00421D89 /* Debug */,
+				BFFA8690286B923E00421D89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFFA8691286B923E00421D89 /* Build configuration list for PBXNativeTarget "agora-testUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFFA8692286B923E00421D89 /* Debug */,
+				BFFA8693286B923E00421D89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFFA865F286B923C00421D89 /* Project object */;
+}
