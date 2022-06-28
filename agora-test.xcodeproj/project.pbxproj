@@ -14,6 +14,54 @@
 		BFFA867C286B923E00421D89 /* agora_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFA867B286B923E00421D89 /* agora_testTests.swift */; };
 		BFFA8686286B923E00421D89 /* agora_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFA8685286B923E00421D89 /* agora_testUITests.swift */; };
 		BFFA8688286B923E00421D89 /* agora_testUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFA8687286B923E00421D89 /* agora_testUITestsLaunchTests.swift */; };
+		BFFA8695286B932500421D89 /* Agora.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFA8694286B932500421D89 /* Agora.swift */; };
+		BFFA86DE286B93E300421D89 /* Pods-agora-testTests.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = BFFA869D286B93E300421D89 /* Pods-agora-testTests.release.xcconfig */; };
+		BFFA86DF286B93E300421D89 /* Pods-agora-testTests.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = BFFA869E286B93E300421D89 /* Pods-agora-testTests.debug.xcconfig */; };
+		BFFA86E0286B93E300421D89 /* Pods-agora-testTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFA869F286B93E300421D89 /* Pods-agora-testTests-dummy.m */; };
+		BFFA86E1286B93E300421D89 /* Pods-agora-testTests-acknowledgements.plist in Resources */ = {isa = PBXBuildFile; fileRef = BFFA86A0286B93E300421D89 /* Pods-agora-testTests-acknowledgements.plist */; };
+		BFFA86E2286B93E300421D89 /* Pods-agora-testTests-acknowledgements.markdown in Resources */ = {isa = PBXBuildFile; fileRef = BFFA86A2286B93E300421D89 /* Pods-agora-testTests-acknowledgements.markdown */; };
+		BFFA86E3286B93E300421D89 /* Pods-agora-testTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BFFA86A3286B93E300421D89 /* Pods-agora-testTests-Info.plist */; };
+		BFFA86E4286B93E300421D89 /* Pods-agora-test-agora-testUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFA86A5286B93E300421D89 /* Pods-agora-test-agora-testUITests-dummy.m */; };
+		BFFA86E5286B93E300421D89 /* Pods-agora-test-agora-testUITests-frameworks.sh in Resources */ = {isa = PBXBuildFile; fileRef = BFFA86A6286B93E300421D89 /* Pods-agora-test-agora-testUITests-frameworks.sh */; };
+		BFFA86E6286B93E300421D89 /* Pods-agora-test-agora-testUITests-frameworks-Debug-output-files.xcfilelist in Resources */ = {isa = PBXBuildFile; fileRef = BFFA86A7286B93E300421D89 /* Pods-agora-test-agora-testUITests-frameworks-Debug-output-files.xcfilelist */; };
+		BFFA86E7286B93E300421D89 /* Pods-agora-test-agora-testUITests-acknowledgements.plist in Resources */ = {isa = PBXBuildFile; fileRef = BFFA86A8286B93E300421D89 /* Pods-agora-test-agora-testUITests-acknowledgements.plist */; };
+		BFFA86E8286B93E300421D89 /* Pods-agora-test-agora-testUITests-frameworks-Release-output-files.xcfilelist in Resources */ = {isa = PBXBuildFile; fileRef = BFFA86A9286B93E300421D89 /* Pods-agora-test-agora-testUITests-frameworks-Release-output-files.xcfilelist */; };
+		BFFA86E9286B93E300421D89 /* Pods-agora-test-agora-testUITests-frameworks-Release-input-files.xcfilelist in Resources */ = {isa = PBXBuildFile; fileRef = BFFA86AB286B93E300421D89 /* Pods-agora-test-agora-testUITests-frameworks-Release-input-files.xcfilelist */; };
+		BFFA86EA286B93E300421D89 /* Pods-agora-test-agora-testUITests-frameworks-Debug-input-files.xcfilelist in Resources */ = {isa = PBXBuildFile; fileRef = BFFA86AC286B93E300421D89 /* Pods-agora-test-agora-testUITests-frameworks-Debug-input-files.xcfilelist */; };
+		BFFA86EB286B93E300421D89 /* Pods-agora-test-agora-testUITests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BFFA86AD286B93E300421D89 /* Pods-agora-test-agora-testUITests-Info.plist */; };
+		BFFA86EC286B93E300421D89 /* Pods-agora-test-agora-testUITests.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = BFFA86AE286B93E300421D89 /* Pods-agora-test-agora-testUITests.debug.xcconfig */; };
+		BFFA86ED286B93E300421D89 /* Pods-agora-test-agora-testUITests-acknowledgements.markdown in Resources */ = {isa = PBXBuildFile; fileRef = BFFA86AF286B93E300421D89 /* Pods-agora-test-agora-testUITests-acknowledgements.markdown */; };
+		BFFA86EE286B93E300421D89 /* Pods-agora-test-agora-testUITests.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = BFFA86B1286B93E300421D89 /* Pods-agora-test-agora-testUITests.release.xcconfig */; };
+		BFFA86EF286B93E300421D89 /* Pods-agora-test-acknowledgements.plist in Resources */ = {isa = PBXBuildFile; fileRef = BFFA86B3286B93E300421D89 /* Pods-agora-test-acknowledgements.plist */; };
+		BFFA86F0286B93E300421D89 /* Pods-agora-test-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFA86B4286B93E300421D89 /* Pods-agora-test-dummy.m */; };
+		BFFA86F1286B93E300421D89 /* Pods-agora-test-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BFFA86B5286B93E300421D89 /* Pods-agora-test-Info.plist */; };
+		BFFA86F2286B93E300421D89 /* Pods-agora-test-frameworks-Release-output-files.xcfilelist in Resources */ = {isa = PBXBuildFile; fileRef = BFFA86B6286B93E300421D89 /* Pods-agora-test-frameworks-Release-output-files.xcfilelist */; };
+		BFFA86F3286B93E300421D89 /* Pods-agora-test-frameworks-Debug-output-files.xcfilelist in Resources */ = {isa = PBXBuildFile; fileRef = BFFA86B7286B93E300421D89 /* Pods-agora-test-frameworks-Debug-output-files.xcfilelist */; };
+		BFFA86F4286B93E300421D89 /* Pods-agora-test.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = BFFA86B8286B93E300421D89 /* Pods-agora-test.debug.xcconfig */; };
+		BFFA86F5286B93E300421D89 /* Pods-agora-test-frameworks.sh in Resources */ = {isa = PBXBuildFile; fileRef = BFFA86B9286B93E300421D89 /* Pods-agora-test-frameworks.sh */; };
+		BFFA86F6286B93E300421D89 /* Pods-agora-test-frameworks-Debug-input-files.xcfilelist in Resources */ = {isa = PBXBuildFile; fileRef = BFFA86BC286B93E300421D89 /* Pods-agora-test-frameworks-Debug-input-files.xcfilelist */; };
+		BFFA86F7286B93E300421D89 /* Pods-agora-test-acknowledgements.markdown in Resources */ = {isa = PBXBuildFile; fileRef = BFFA86BD286B93E300421D89 /* Pods-agora-test-acknowledgements.markdown */; };
+		BFFA86F8286B93E300421D89 /* Pods-agora-test.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = BFFA86BE286B93E300421D89 /* Pods-agora-test.release.xcconfig */; };
+		BFFA86F9286B93E300421D89 /* Pods-agora-test-frameworks-Release-input-files.xcfilelist in Resources */ = {isa = PBXBuildFile; fileRef = BFFA86BF286B93E300421D89 /* Pods-agora-test-frameworks-Release-input-files.xcfilelist */; };
+		BFFA86FA286B93E300421D89 /* AgoraRtcEngine_iOS_Beta-xcframeworks-output-files.xcfilelist in Resources */ = {isa = PBXBuildFile; fileRef = BFFA86C1286B93E300421D89 /* AgoraRtcEngine_iOS_Beta-xcframeworks-output-files.xcfilelist */; };
+		BFFA86FB286B93E300421D89 /* AgoraRtcEngine_iOS_Beta-xcframeworks-input-files.xcfilelist in Resources */ = {isa = PBXBuildFile; fileRef = BFFA86C2286B93E300421D89 /* AgoraRtcEngine_iOS_Beta-xcframeworks-input-files.xcfilelist */; };
+		BFFA86FC286B93E300421D89 /* AgoraRtcEngine_iOS_Beta-xcframeworks.sh in Resources */ = {isa = PBXBuildFile; fileRef = BFFA86C3286B93E300421D89 /* AgoraRtcEngine_iOS_Beta-xcframeworks.sh */; };
+		BFFA86FD286B93E300421D89 /* AgoraRtcEngine_iOS_Beta.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = BFFA86C4286B93E300421D89 /* AgoraRtcEngine_iOS_Beta.debug.xcconfig */; };
+		BFFA86FE286B93E300421D89 /* AgoraRtcEngine_iOS_Beta.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = BFFA86C5286B93E300421D89 /* AgoraRtcEngine_iOS_Beta.release.xcconfig */; };
+		BFFA86FF286B93E300421D89 /* Manifest.lock in Resources */ = {isa = PBXBuildFile; fileRef = BFFA86C6286B93E300421D89 /* Manifest.lock */; };
+		BFFA8700286B93E300421D89 /* Agoraffmpeg.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFFA86C9286B93E300421D89 /* Agoraffmpeg.xcframework */; };
+		BFFA8701286B93E300421D89 /* AgoraRtcKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFFA86CA286B93E300421D89 /* AgoraRtcKit.xcframework */; };
+		BFFA8702286B93E300421D89 /* AgoraVideoProcessExtension.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFFA86CB286B93E300421D89 /* AgoraVideoProcessExtension.xcframework */; };
+		BFFA8703286B93E300421D89 /* AgoraVideoSegmentationExtension.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFFA86CC286B93E300421D89 /* AgoraVideoSegmentationExtension.xcframework */; };
+		BFFA8704286B93E300421D89 /* AgoraRTE.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFFA86CD286B93E300421D89 /* AgoraRTE.xcframework */; };
+		BFFA8705286B93E300421D89 /* AgoraPvcExtension.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFFA86CE286B93E300421D89 /* AgoraPvcExtension.xcframework */; };
+		BFFA8706286B93E300421D89 /* AgoraQualityEduVideoProcess.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFFA86CF286B93E300421D89 /* AgoraQualityEduVideoProcess.xcframework */; };
+		BFFA8707286B93E300421D89 /* BeQuic.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFFA86D0286B93E300421D89 /* BeQuic.xcframework */; };
+		BFFA8708286B93E300421D89 /* AgoraSuperResolutionExtension.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFFA86D1286B93E300421D89 /* AgoraSuperResolutionExtension.xcframework */; };
+		BFFA8709286B93E300421D89 /* AgoraDav1dExtension.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFFA86D2286B93E300421D89 /* AgoraDav1dExtension.xcframework */; };
+		ECC3047E09E3C3235A03AC5F /* Pods_agora_test_agora_testUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 525842FFF2225ECB769D7266 /* Pods_agora_test_agora_testUITests.framework */; };
+		F0F7D4CBCE36A949E5D0ED78 /* Pods_agora_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D39F58A8661C909E00AED8BC /* Pods_agora_test.framework */; };
+		FE587707C030A76EDE04DDC3 /* Pods_agora_testTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 720C3C718B83F8F8AB61A95B /* Pods_agora_testTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,9 +79,37 @@
 			remoteGlobalIDString = BFFA8666286B923D00421D89;
 			remoteInfo = "agora-test";
 		};
+		BFFA86D8286B93E300421D89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFFA8697286B93E300421D89 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E2268EC0ABBC6994B5221834A6C72167;
+			remoteInfo = "Pods-agora-test";
+		};
+		BFFA86DA286B93E300421D89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFFA8697286B93E300421D89 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0405A33D1885276AC29474197D521AAF;
+			remoteInfo = "Pods-agora-test-agora-testUITests";
+		};
+		BFFA86DC286B93E300421D89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFFA8697286B93E300421D89 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A79B17FB8AB060327B0E625DC2446BB6;
+			remoteInfo = "Pods-agora-testTests";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		220D5B79A64B193EE914A70C /* Pods-agora-test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-agora-test.release.xcconfig"; path = "Target Support Files/Pods-agora-test/Pods-agora-test.release.xcconfig"; sourceTree = "<group>"; };
+		39C6DCF00561963EDF4F6C83 /* Pods-agora-test-agora-testUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-agora-test-agora-testUITests.release.xcconfig"; path = "Target Support Files/Pods-agora-test-agora-testUITests/Pods-agora-test-agora-testUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4BBBF5A7A1A155EE54001D9B /* Pods-agora-test-agora-testUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-agora-test-agora-testUITests.debug.xcconfig"; path = "Target Support Files/Pods-agora-test-agora-testUITests/Pods-agora-test-agora-testUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		525842FFF2225ECB769D7266 /* Pods_agora_test_agora_testUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_agora_test_agora_testUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		720C3C718B83F8F8AB61A95B /* Pods_agora_testTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_agora_testTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A420CA9498D93DC95130CD5 /* Pods-agora-testTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-agora-testTests.debug.xcconfig"; path = "Target Support Files/Pods-agora-testTests/Pods-agora-testTests.debug.xcconfig"; sourceTree = "<group>"; };
+		92C274D75D868274130EA896 /* Pods-agora-testTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-agora-testTests.release.xcconfig"; path = "Target Support Files/Pods-agora-testTests/Pods-agora-testTests.release.xcconfig"; sourceTree = "<group>"; };
 		BFFA8667286B923D00421D89 /* agora-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "agora-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFFA866A286B923D00421D89 /* agora_testApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = agora_testApp.swift; sourceTree = "<group>"; };
 		BFFA866C286B923D00421D89 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +120,60 @@
 		BFFA8681286B923E00421D89 /* agora-testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "agora-testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFFA8685286B923E00421D89 /* agora_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = agora_testUITests.swift; sourceTree = "<group>"; };
 		BFFA8687286B923E00421D89 /* agora_testUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = agora_testUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BFFA8694286B932500421D89 /* Agora.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Agora.swift; sourceTree = "<group>"; };
+		BFFA8697286B93E300421D89 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Pods.xcodeproj; sourceTree = "<group>"; };
+		BFFA869C286B93E300421D89 /* Pods-agora-testTests-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Pods-agora-testTests-umbrella.h"; sourceTree = "<group>"; };
+		BFFA869D286B93E300421D89 /* Pods-agora-testTests.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-agora-testTests.release.xcconfig"; sourceTree = "<group>"; };
+		BFFA869E286B93E300421D89 /* Pods-agora-testTests.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-agora-testTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BFFA869F286B93E300421D89 /* Pods-agora-testTests-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Pods-agora-testTests-dummy.m"; sourceTree = "<group>"; };
+		BFFA86A0286B93E300421D89 /* Pods-agora-testTests-acknowledgements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Pods-agora-testTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BFFA86A1286B93E300421D89 /* Pods-agora-testTests.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = "Pods-agora-testTests.modulemap"; sourceTree = "<group>"; };
+		BFFA86A2286B93E300421D89 /* Pods-agora-testTests-acknowledgements.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Pods-agora-testTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BFFA86A3286B93E300421D89 /* Pods-agora-testTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Pods-agora-testTests-Info.plist"; sourceTree = "<group>"; };
+		BFFA86A5286B93E300421D89 /* Pods-agora-test-agora-testUITests-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Pods-agora-test-agora-testUITests-dummy.m"; sourceTree = "<group>"; };
+		BFFA86A6286B93E300421D89 /* Pods-agora-test-agora-testUITests-frameworks.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "Pods-agora-test-agora-testUITests-frameworks.sh"; sourceTree = "<group>"; };
+		BFFA86A7286B93E300421D89 /* Pods-agora-test-agora-testUITests-frameworks-Debug-output-files.xcfilelist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcfilelist; path = "Pods-agora-test-agora-testUITests-frameworks-Debug-output-files.xcfilelist"; sourceTree = "<group>"; };
+		BFFA86A8286B93E300421D89 /* Pods-agora-test-agora-testUITests-acknowledgements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Pods-agora-test-agora-testUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BFFA86A9286B93E300421D89 /* Pods-agora-test-agora-testUITests-frameworks-Release-output-files.xcfilelist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcfilelist; path = "Pods-agora-test-agora-testUITests-frameworks-Release-output-files.xcfilelist"; sourceTree = "<group>"; };
+		BFFA86AA286B93E300421D89 /* Pods-agora-test-agora-testUITests-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Pods-agora-test-agora-testUITests-umbrella.h"; sourceTree = "<group>"; };
+		BFFA86AB286B93E300421D89 /* Pods-agora-test-agora-testUITests-frameworks-Release-input-files.xcfilelist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcfilelist; path = "Pods-agora-test-agora-testUITests-frameworks-Release-input-files.xcfilelist"; sourceTree = "<group>"; };
+		BFFA86AC286B93E300421D89 /* Pods-agora-test-agora-testUITests-frameworks-Debug-input-files.xcfilelist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcfilelist; path = "Pods-agora-test-agora-testUITests-frameworks-Debug-input-files.xcfilelist"; sourceTree = "<group>"; };
+		BFFA86AD286B93E300421D89 /* Pods-agora-test-agora-testUITests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Pods-agora-test-agora-testUITests-Info.plist"; sourceTree = "<group>"; };
+		BFFA86AE286B93E300421D89 /* Pods-agora-test-agora-testUITests.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-agora-test-agora-testUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BFFA86AF286B93E300421D89 /* Pods-agora-test-agora-testUITests-acknowledgements.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Pods-agora-test-agora-testUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BFFA86B0286B93E300421D89 /* Pods-agora-test-agora-testUITests.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = "Pods-agora-test-agora-testUITests.modulemap"; sourceTree = "<group>"; };
+		BFFA86B1286B93E300421D89 /* Pods-agora-test-agora-testUITests.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-agora-test-agora-testUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BFFA86B3286B93E300421D89 /* Pods-agora-test-acknowledgements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Pods-agora-test-acknowledgements.plist"; sourceTree = "<group>"; };
+		BFFA86B4286B93E300421D89 /* Pods-agora-test-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Pods-agora-test-dummy.m"; sourceTree = "<group>"; };
+		BFFA86B5286B93E300421D89 /* Pods-agora-test-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Pods-agora-test-Info.plist"; sourceTree = "<group>"; };
+		BFFA86B6286B93E300421D89 /* Pods-agora-test-frameworks-Release-output-files.xcfilelist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcfilelist; path = "Pods-agora-test-frameworks-Release-output-files.xcfilelist"; sourceTree = "<group>"; };
+		BFFA86B7286B93E300421D89 /* Pods-agora-test-frameworks-Debug-output-files.xcfilelist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcfilelist; path = "Pods-agora-test-frameworks-Debug-output-files.xcfilelist"; sourceTree = "<group>"; };
+		BFFA86B8286B93E300421D89 /* Pods-agora-test.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-agora-test.debug.xcconfig"; sourceTree = "<group>"; };
+		BFFA86B9286B93E300421D89 /* Pods-agora-test-frameworks.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "Pods-agora-test-frameworks.sh"; sourceTree = "<group>"; };
+		BFFA86BA286B93E300421D89 /* Pods-agora-test-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Pods-agora-test-umbrella.h"; sourceTree = "<group>"; };
+		BFFA86BB286B93E300421D89 /* Pods-agora-test.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = "Pods-agora-test.modulemap"; sourceTree = "<group>"; };
+		BFFA86BC286B93E300421D89 /* Pods-agora-test-frameworks-Debug-input-files.xcfilelist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcfilelist; path = "Pods-agora-test-frameworks-Debug-input-files.xcfilelist"; sourceTree = "<group>"; };
+		BFFA86BD286B93E300421D89 /* Pods-agora-test-acknowledgements.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Pods-agora-test-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BFFA86BE286B93E300421D89 /* Pods-agora-test.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Pods-agora-test.release.xcconfig"; sourceTree = "<group>"; };
+		BFFA86BF286B93E300421D89 /* Pods-agora-test-frameworks-Release-input-files.xcfilelist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcfilelist; path = "Pods-agora-test-frameworks-Release-input-files.xcfilelist"; sourceTree = "<group>"; };
+		BFFA86C1286B93E300421D89 /* AgoraRtcEngine_iOS_Beta-xcframeworks-output-files.xcfilelist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcfilelist; path = "AgoraRtcEngine_iOS_Beta-xcframeworks-output-files.xcfilelist"; sourceTree = "<group>"; };
+		BFFA86C2286B93E300421D89 /* AgoraRtcEngine_iOS_Beta-xcframeworks-input-files.xcfilelist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcfilelist; path = "AgoraRtcEngine_iOS_Beta-xcframeworks-input-files.xcfilelist"; sourceTree = "<group>"; };
+		BFFA86C3286B93E300421D89 /* AgoraRtcEngine_iOS_Beta-xcframeworks.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "AgoraRtcEngine_iOS_Beta-xcframeworks.sh"; sourceTree = "<group>"; };
+		BFFA86C4286B93E300421D89 /* AgoraRtcEngine_iOS_Beta.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = AgoraRtcEngine_iOS_Beta.debug.xcconfig; sourceTree = "<group>"; };
+		BFFA86C5286B93E300421D89 /* AgoraRtcEngine_iOS_Beta.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = AgoraRtcEngine_iOS_Beta.release.xcconfig; sourceTree = "<group>"; };
+		BFFA86C6286B93E300421D89 /* Manifest.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Manifest.lock; sourceTree = "<group>"; };
+		BFFA86C9286B93E300421D89 /* Agoraffmpeg.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Agoraffmpeg.xcframework; sourceTree = "<group>"; };
+		BFFA86CA286B93E300421D89 /* AgoraRtcKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraRtcKit.xcframework; sourceTree = "<group>"; };
+		BFFA86CB286B93E300421D89 /* AgoraVideoProcessExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraVideoProcessExtension.xcframework; sourceTree = "<group>"; };
+		BFFA86CC286B93E300421D89 /* AgoraVideoSegmentationExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraVideoSegmentationExtension.xcframework; sourceTree = "<group>"; };
+		BFFA86CD286B93E300421D89 /* AgoraRTE.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraRTE.xcframework; sourceTree = "<group>"; };
+		BFFA86CE286B93E300421D89 /* AgoraPvcExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraPvcExtension.xcframework; sourceTree = "<group>"; };
+		BFFA86CF286B93E300421D89 /* AgoraQualityEduVideoProcess.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraQualityEduVideoProcess.xcframework; sourceTree = "<group>"; };
+		BFFA86D0286B93E300421D89 /* BeQuic.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = BeQuic.xcframework; sourceTree = "<group>"; };
+		BFFA86D1286B93E300421D89 /* AgoraSuperResolutionExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraSuperResolutionExtension.xcframework; sourceTree = "<group>"; };
+		BFFA86D2286B93E300421D89 /* AgoraDav1dExtension.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraDav1dExtension.xcframework; sourceTree = "<group>"; };
+		D39F58A8661C909E00AED8BC /* Pods_agora_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_agora_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF4F380AE2C041288DE6D66 /* Pods-agora-test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-agora-test.debug.xcconfig"; path = "Target Support Files/Pods-agora-test/Pods-agora-test.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +181,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0F7D4CBCE36A949E5D0ED78 /* Pods_agora_test.framework in Frameworks */,
+				BFFA8700286B93E300421D89 /* Agoraffmpeg.xcframework in Frameworks */,
+				BFFA8708286B93E300421D89 /* AgoraSuperResolutionExtension.xcframework in Frameworks */,
+				BFFA8702286B93E300421D89 /* AgoraVideoProcessExtension.xcframework in Frameworks */,
+				BFFA8709286B93E300421D89 /* AgoraDav1dExtension.xcframework in Frameworks */,
+				BFFA8701286B93E300421D89 /* AgoraRtcKit.xcframework in Frameworks */,
+				BFFA8705286B93E300421D89 /* AgoraPvcExtension.xcframework in Frameworks */,
+				BFFA8706286B93E300421D89 /* AgoraQualityEduVideoProcess.xcframework in Frameworks */,
+				BFFA8704286B93E300421D89 /* AgoraRTE.xcframework in Frameworks */,
+				BFFA8703286B93E300421D89 /* AgoraVideoSegmentationExtension.xcframework in Frameworks */,
+				BFFA8707286B93E300421D89 /* BeQuic.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +199,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE587707C030A76EDE04DDC3 /* Pods_agora_testTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,19 +207,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECC3047E09E3C3235A03AC5F /* Pods_agora_test_agora_testUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		892E291866C93EF5DF354305 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FAF4F380AE2C041288DE6D66 /* Pods-agora-test.debug.xcconfig */,
+				220D5B79A64B193EE914A70C /* Pods-agora-test.release.xcconfig */,
+				4BBBF5A7A1A155EE54001D9B /* Pods-agora-test-agora-testUITests.debug.xcconfig */,
+				39C6DCF00561963EDF4F6C83 /* Pods-agora-test-agora-testUITests.release.xcconfig */,
+				7A420CA9498D93DC95130CD5 /* Pods-agora-testTests.debug.xcconfig */,
+				92C274D75D868274130EA896 /* Pods-agora-testTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9BFB2DE83A61CDA5227EF0C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D39F58A8661C909E00AED8BC /* Pods_agora_test.framework */,
+				525842FFF2225ECB769D7266 /* Pods_agora_test_agora_testUITests.framework */,
+				720C3C718B83F8F8AB61A95B /* Pods_agora_testTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BFFA865E286B923C00421D89 = {
 			isa = PBXGroup;
 			children = (
+				BFFA8696286B93E300421D89 /* Pods */,
 				BFFA8669286B923D00421D89 /* agora-test */,
 				BFFA867A286B923E00421D89 /* agora-testTests */,
 				BFFA8684286B923E00421D89 /* agora-testUITests */,
 				BFFA8668286B923D00421D89 /* Products */,
+				892E291866C93EF5DF354305 /* Pods */,
+				9BFB2DE83A61CDA5227EF0C6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +265,7 @@
 			children = (
 				BFFA866A286B923D00421D89 /* agora_testApp.swift */,
 				BFFA866C286B923D00421D89 /* ContentView.swift */,
+				BFFA8694286B932500421D89 /* Agora.swift */,
 				BFFA866E286B923E00421D89 /* Assets.xcassets */,
 				BFFA8670286B923E00421D89 /* Preview Content */,
 			);
@@ -127,6 +297,138 @@
 			path = "agora-testUITests";
 			sourceTree = "<group>";
 		};
+		BFFA8696286B93E300421D89 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BFFA8697286B93E300421D89 /* Pods.xcodeproj */,
+				BFFA869A286B93E300421D89 /* Target Support Files */,
+				BFFA86C6286B93E300421D89 /* Manifest.lock */,
+				BFFA86C7286B93E300421D89 /* Local Podspecs */,
+				BFFA86C8286B93E300421D89 /* AgoraRtcEngine_iOS_Beta */,
+				BFFA86D3286B93E300421D89 /* Headers */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BFFA8698286B93E300421D89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFFA86D9286B93E300421D89 /* Pods-agora-test */,
+				BFFA86DB286B93E300421D89 /* Pods-agora-test-agora-testUITests */,
+				BFFA86DD286B93E300421D89 /* Pods-agora-testTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFFA869A286B93E300421D89 /* Target Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFFA869B286B93E300421D89 /* Pods-agora-testTests */,
+				BFFA86A4286B93E300421D89 /* Pods-agora-test-agora-testUITests */,
+				BFFA86B2286B93E300421D89 /* Pods-agora-test */,
+				BFFA86C0286B93E300421D89 /* AgoraRtcEngine_iOS_Beta */,
+			);
+			path = "Target Support Files";
+			sourceTree = "<group>";
+		};
+		BFFA869B286B93E300421D89 /* Pods-agora-testTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFFA869C286B93E300421D89 /* Pods-agora-testTests-umbrella.h */,
+				BFFA869D286B93E300421D89 /* Pods-agora-testTests.release.xcconfig */,
+				BFFA869E286B93E300421D89 /* Pods-agora-testTests.debug.xcconfig */,
+				BFFA869F286B93E300421D89 /* Pods-agora-testTests-dummy.m */,
+				BFFA86A0286B93E300421D89 /* Pods-agora-testTests-acknowledgements.plist */,
+				BFFA86A1286B93E300421D89 /* Pods-agora-testTests.modulemap */,
+				BFFA86A2286B93E300421D89 /* Pods-agora-testTests-acknowledgements.markdown */,
+				BFFA86A3286B93E300421D89 /* Pods-agora-testTests-Info.plist */,
+			);
+			path = "Pods-agora-testTests";
+			sourceTree = "<group>";
+		};
+		BFFA86A4286B93E300421D89 /* Pods-agora-test-agora-testUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BFFA86A5286B93E300421D89 /* Pods-agora-test-agora-testUITests-dummy.m */,
+				BFFA86A6286B93E300421D89 /* Pods-agora-test-agora-testUITests-frameworks.sh */,
+				BFFA86A7286B93E300421D89 /* Pods-agora-test-agora-testUITests-frameworks-Debug-output-files.xcfilelist */,
+				BFFA86A8286B93E300421D89 /* Pods-agora-test-agora-testUITests-acknowledgements.plist */,
+				BFFA86A9286B93E300421D89 /* Pods-agora-test-agora-testUITests-frameworks-Release-output-files.xcfilelist */,
+				BFFA86AA286B93E300421D89 /* Pods-agora-test-agora-testUITests-umbrella.h */,
+				BFFA86AB286B93E300421D89 /* Pods-agora-test-agora-testUITests-frameworks-Release-input-files.xcfilelist */,
+				BFFA86AC286B93E300421D89 /* Pods-agora-test-agora-testUITests-frameworks-Debug-input-files.xcfilelist */,
+				BFFA86AD286B93E300421D89 /* Pods-agora-test-agora-testUITests-Info.plist */,
+				BFFA86AE286B93E300421D89 /* Pods-agora-test-agora-testUITests.debug.xcconfig */,
+				BFFA86AF286B93E300421D89 /* Pods-agora-test-agora-testUITests-acknowledgements.markdown */,
+				BFFA86B0286B93E300421D89 /* Pods-agora-test-agora-testUITests.modulemap */,
+				BFFA86B1286B93E300421D89 /* Pods-agora-test-agora-testUITests.release.xcconfig */,
+			);
+			path = "Pods-agora-test-agora-testUITests";
+			sourceTree = "<group>";
+		};
+		BFFA86B2286B93E300421D89 /* Pods-agora-test */ = {
+			isa = PBXGroup;
+			children = (
+				BFFA86B3286B93E300421D89 /* Pods-agora-test-acknowledgements.plist */,
+				BFFA86B4286B93E300421D89 /* Pods-agora-test-dummy.m */,
+				BFFA86B5286B93E300421D89 /* Pods-agora-test-Info.plist */,
+				BFFA86B6286B93E300421D89 /* Pods-agora-test-frameworks-Release-output-files.xcfilelist */,
+				BFFA86B7286B93E300421D89 /* Pods-agora-test-frameworks-Debug-output-files.xcfilelist */,
+				BFFA86B8286B93E300421D89 /* Pods-agora-test.debug.xcconfig */,
+				BFFA86B9286B93E300421D89 /* Pods-agora-test-frameworks.sh */,
+				BFFA86BA286B93E300421D89 /* Pods-agora-test-umbrella.h */,
+				BFFA86BB286B93E300421D89 /* Pods-agora-test.modulemap */,
+				BFFA86BC286B93E300421D89 /* Pods-agora-test-frameworks-Debug-input-files.xcfilelist */,
+				BFFA86BD286B93E300421D89 /* Pods-agora-test-acknowledgements.markdown */,
+				BFFA86BE286B93E300421D89 /* Pods-agora-test.release.xcconfig */,
+				BFFA86BF286B93E300421D89 /* Pods-agora-test-frameworks-Release-input-files.xcfilelist */,
+			);
+			path = "Pods-agora-test";
+			sourceTree = "<group>";
+		};
+		BFFA86C0286B93E300421D89 /* AgoraRtcEngine_iOS_Beta */ = {
+			isa = PBXGroup;
+			children = (
+				BFFA86C1286B93E300421D89 /* AgoraRtcEngine_iOS_Beta-xcframeworks-output-files.xcfilelist */,
+				BFFA86C2286B93E300421D89 /* AgoraRtcEngine_iOS_Beta-xcframeworks-input-files.xcfilelist */,
+				BFFA86C3286B93E300421D89 /* AgoraRtcEngine_iOS_Beta-xcframeworks.sh */,
+				BFFA86C4286B93E300421D89 /* AgoraRtcEngine_iOS_Beta.debug.xcconfig */,
+				BFFA86C5286B93E300421D89 /* AgoraRtcEngine_iOS_Beta.release.xcconfig */,
+			);
+			path = AgoraRtcEngine_iOS_Beta;
+			sourceTree = "<group>";
+		};
+		BFFA86C7286B93E300421D89 /* Local Podspecs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Local Podspecs";
+			sourceTree = "<group>";
+		};
+		BFFA86C8286B93E300421D89 /* AgoraRtcEngine_iOS_Beta */ = {
+			isa = PBXGroup;
+			children = (
+				BFFA86C9286B93E300421D89 /* Agoraffmpeg.xcframework */,
+				BFFA86CA286B93E300421D89 /* AgoraRtcKit.xcframework */,
+				BFFA86CB286B93E300421D89 /* AgoraVideoProcessExtension.xcframework */,
+				BFFA86CC286B93E300421D89 /* AgoraVideoSegmentationExtension.xcframework */,
+				BFFA86CD286B93E300421D89 /* AgoraRTE.xcframework */,
+				BFFA86CE286B93E300421D89 /* AgoraPvcExtension.xcframework */,
+				BFFA86CF286B93E300421D89 /* AgoraQualityEduVideoProcess.xcframework */,
+				BFFA86D0286B93E300421D89 /* BeQuic.xcframework */,
+				BFFA86D1286B93E300421D89 /* AgoraSuperResolutionExtension.xcframework */,
+				BFFA86D2286B93E300421D89 /* AgoraDav1dExtension.xcframework */,
+			);
+			path = AgoraRtcEngine_iOS_Beta;
+			sourceTree = "<group>";
+		};
+		BFFA86D3286B93E300421D89 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +436,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BFFA868B286B923E00421D89 /* Build configuration list for PBXNativeTarget "agora-test" */;
 			buildPhases = (
+				202D95BC83BFF0B541EBF4B3 /* [CP] Check Pods Manifest.lock */,
 				BFFA8663286B923D00421D89 /* Sources */,
 				BFFA8664286B923D00421D89 /* Frameworks */,
 				BFFA8665286B923D00421D89 /* Resources */,
+				272479241F41C65EBD239F7E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +455,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BFFA868E286B923E00421D89 /* Build configuration list for PBXNativeTarget "agora-testTests" */;
 			buildPhases = (
+				7AD5BEADF85E1841926A78C1 /* [CP] Check Pods Manifest.lock */,
 				BFFA8673286B923E00421D89 /* Sources */,
 				BFFA8674286B923E00421D89 /* Frameworks */,
 				BFFA8675286B923E00421D89 /* Resources */,
@@ -169,9 +474,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BFFA8691286B923E00421D89 /* Build configuration list for PBXNativeTarget "agora-testUITests" */;
 			buildPhases = (
+				2182ABA2E93A65039A67E54F /* [CP] Check Pods Manifest.lock */,
 				BFFA867D286B923E00421D89 /* Sources */,
 				BFFA867E286B923E00421D89 /* Frameworks */,
 				BFFA867F286B923E00421D89 /* Resources */,
+				0428A01DCD6C22731BDC5D5A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -217,6 +524,12 @@
 			mainGroup = BFFA865E286B923C00421D89;
 			productRefGroup = BFFA8668286B923D00421D89 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = BFFA8698286B93E300421D89 /* Products */;
+					ProjectRef = BFFA8697286B93E300421D89 /* Pods.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				BFFA8666286B923D00421D89 /* agora-test */,
@@ -226,13 +539,71 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		BFFA86D9286B93E300421D89 /* Pods-agora-test */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			name = "Pods-agora-test";
+			path = Pods_agora_test.framework;
+			remoteRef = BFFA86D8286B93E300421D89 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BFFA86DB286B93E300421D89 /* Pods-agora-test-agora-testUITests */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			name = "Pods-agora-test-agora-testUITests";
+			path = Pods_agora_test_agora_testUITests.framework;
+			remoteRef = BFFA86DA286B93E300421D89 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BFFA86DD286B93E300421D89 /* Pods-agora-testTests */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			name = "Pods-agora-testTests";
+			path = Pods_agora_testTests.framework;
+			remoteRef = BFFA86DC286B93E300421D89 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		BFFA8665286B923D00421D89 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFFA86E9286B93E300421D89 /* Pods-agora-test-agora-testUITests-frameworks-Release-input-files.xcfilelist in Resources */,
+				BFFA86F9286B93E300421D89 /* Pods-agora-test-frameworks-Release-input-files.xcfilelist in Resources */,
+				BFFA86E1286B93E300421D89 /* Pods-agora-testTests-acknowledgements.plist in Resources */,
+				BFFA86EF286B93E300421D89 /* Pods-agora-test-acknowledgements.plist in Resources */,
+				BFFA86FE286B93E300421D89 /* AgoraRtcEngine_iOS_Beta.release.xcconfig in Resources */,
+				BFFA86F2286B93E300421D89 /* Pods-agora-test-frameworks-Release-output-files.xcfilelist in Resources */,
+				BFFA86E7286B93E300421D89 /* Pods-agora-test-agora-testUITests-acknowledgements.plist in Resources */,
+				BFFA86FB286B93E300421D89 /* AgoraRtcEngine_iOS_Beta-xcframeworks-input-files.xcfilelist in Resources */,
+				BFFA86ED286B93E300421D89 /* Pods-agora-test-agora-testUITests-acknowledgements.markdown in Resources */,
+				BFFA86EC286B93E300421D89 /* Pods-agora-test-agora-testUITests.debug.xcconfig in Resources */,
+				BFFA86DF286B93E300421D89 /* Pods-agora-testTests.debug.xcconfig in Resources */,
+				BFFA86E2286B93E300421D89 /* Pods-agora-testTests-acknowledgements.markdown in Resources */,
+				BFFA86FA286B93E300421D89 /* AgoraRtcEngine_iOS_Beta-xcframeworks-output-files.xcfilelist in Resources */,
+				BFFA86E6286B93E300421D89 /* Pods-agora-test-agora-testUITests-frameworks-Debug-output-files.xcfilelist in Resources */,
+				BFFA86DE286B93E300421D89 /* Pods-agora-testTests.release.xcconfig in Resources */,
+				BFFA86FF286B93E300421D89 /* Manifest.lock in Resources */,
 				BFFA8672286B923E00421D89 /* Preview Assets.xcassets in Resources */,
+				BFFA86EA286B93E300421D89 /* Pods-agora-test-agora-testUITests-frameworks-Debug-input-files.xcfilelist in Resources */,
+				BFFA86F1286B93E300421D89 /* Pods-agora-test-Info.plist in Resources */,
+				BFFA86F5286B93E300421D89 /* Pods-agora-test-frameworks.sh in Resources */,
+				BFFA86E5286B93E300421D89 /* Pods-agora-test-agora-testUITests-frameworks.sh in Resources */,
+				BFFA86FC286B93E300421D89 /* AgoraRtcEngine_iOS_Beta-xcframeworks.sh in Resources */,
+				BFFA86EE286B93E300421D89 /* Pods-agora-test-agora-testUITests.release.xcconfig in Resources */,
 				BFFA866F286B923E00421D89 /* Assets.xcassets in Resources */,
+				BFFA86E8286B93E300421D89 /* Pods-agora-test-agora-testUITests-frameworks-Release-output-files.xcfilelist in Resources */,
+				BFFA86F4286B93E300421D89 /* Pods-agora-test.debug.xcconfig in Resources */,
+				BFFA86EB286B93E300421D89 /* Pods-agora-test-agora-testUITests-Info.plist in Resources */,
+				BFFA86F6286B93E300421D89 /* Pods-agora-test-frameworks-Debug-input-files.xcfilelist in Resources */,
+				BFFA86F3286B93E300421D89 /* Pods-agora-test-frameworks-Debug-output-files.xcfilelist in Resources */,
+				BFFA86E3286B93E300421D89 /* Pods-agora-testTests-Info.plist in Resources */,
+				BFFA86F8286B93E300421D89 /* Pods-agora-test.release.xcconfig in Resources */,
+				BFFA86FD286B93E300421D89 /* AgoraRtcEngine_iOS_Beta.debug.xcconfig in Resources */,
+				BFFA86F7286B93E300421D89 /* Pods-agora-test-acknowledgements.markdown in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,11 +623,118 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0428A01DCD6C22731BDC5D5A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-agora-test-agora-testUITests/Pods-agora-test-agora-testUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-agora-test-agora-testUITests/Pods-agora-test-agora-testUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-agora-test-agora-testUITests/Pods-agora-test-agora-testUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		202D95BC83BFF0B541EBF4B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-agora-test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2182ABA2E93A65039A67E54F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-agora-test-agora-testUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		272479241F41C65EBD239F7E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-agora-test/Pods-agora-test-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-agora-test/Pods-agora-test-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-agora-test/Pods-agora-test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7AD5BEADF85E1841926A78C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-agora-testTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BFFA8663286B923D00421D89 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFFA8695286B932500421D89 /* Agora.swift in Sources */,
+				BFFA86F0286B93E300421D89 /* Pods-agora-test-dummy.m in Sources */,
+				BFFA86E4286B93E300421D89 /* Pods-agora-test-agora-testUITests-dummy.m in Sources */,
+				BFFA86E0286B93E300421D89 /* Pods-agora-testTests-dummy.m in Sources */,
 				BFFA866D286B923D00421D89 /* ContentView.swift in Sources */,
 				BFFA866B286B923D00421D89 /* agora_testApp.swift in Sources */,
 			);
@@ -411,6 +889,7 @@
 		};
 		BFFA868C286B923E00421D89 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAF4F380AE2C041288DE6D66 /* Pods-agora-test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -433,12 +912,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		BFFA868D286B923E00421D89 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 220D5B79A64B193EE914A70C /* Pods-agora-test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -461,12 +941,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		BFFA868F286B923E00421D89 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A420CA9498D93DC95130CD5 /* Pods-agora-testTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -486,6 +967,7 @@
 		};
 		BFFA8690286B923E00421D89 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92C274D75D868274130EA896 /* Pods-agora-testTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -505,6 +987,7 @@
 		};
 		BFFA8692286B923E00421D89 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BBBF5A7A1A155EE54001D9B /* Pods-agora-test-agora-testUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -522,6 +1005,7 @@
 		};
 		BFFA8693286B923E00421D89 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39C6DCF00561963EDF4F6C83 /* Pods-agora-test-agora-testUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

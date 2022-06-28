@@ -6,16 +6,30 @@
 //
 
 import SwiftUI
+import AgoraRtcKit
 
 struct ContentView: View {
+    @EnvironmentObject var vm: AgoraViewModel
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            /// N.B. Here I am using int  as our uid, but in our real app. we use real uids
+            ForEach(0..<3){ id in
+                VideoSurface(uid: UInt(id))
+            }
+        }.onAppear(){
+            AgoraViewModel.join(channel: "some channel", with: "some token", as: AgoraClientRole.broadcaster)
+        }.onDisappear(){
+            AgoraViewModel.cleanUp()
+        }
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+struct VideoSurface: View {
+    @EnvironmentObject var vm: AgoraViewModel
+    let uid: UInt
+    var body: some View {
+        Rectangle().foregroundColor(.blue).shadow(radius: 10).onAppear(){
+            vm.addVideoSurface(self, uid: uid)
+        }
     }
 }
