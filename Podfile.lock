@@ -1,0 +1,16 @@
+PODS:
+  - AgoraRtcEngine_iOS_Beta (4.0.0-beta.2)
+
+DEPENDENCIES:
+  - AgoraRtcEngine_iOS_Beta (= 4.0.0-beta.2)
+
+SPEC REPOS:
+  trunk:
+    - AgoraRtcEngine_iOS_Beta
+
+SPEC CHECKSUMS:
+  AgoraRtcEngine_iOS_Beta: b03946a1b4e9df5a2ead9561ad82b12dd925cac8
+
+PODFILE CHECKSUM: fcc5758182606ad441749bafef681bd478b81f0b
+
+COCOAPODS: 1.11.3
